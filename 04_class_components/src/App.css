@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  line-height: 4rem;
+}
+
+.container{
+  margin: auto;
+  line-height: 4rem;
+}
+
+
+button{
+  padding: 1rem 2rem;
+  border: 1px solid grey;
+}
