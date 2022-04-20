@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&family=Jost:wght@500;600;700;800;900&family=Roboto+Mono:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Jost', sans-serif;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto Mono', monospace;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.todo-card {
+  text-align: center;
+  width: 40rem;
+  height: 35rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 1px 1px 10px grey;
+}
+
+h1 {
+  color: blueviolet;
+  padding-bottom: 1rem;
+  padding-right: 3rem ;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  outline: none;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  margin: .5rem 0;
+}
+
+button:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+li {
+  list-style-type: none;
+}
+
+.todo-list {
+  height: 65%;
+  overflow: auto;
+}
+
+.todo-list ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid blueviolet;
+  margin: 1rem 0;
+  color: blueviolet;
+  overflow: auto;
+  text-indent: 40px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+img{
+  cursor: pointer;
+  padding-left: 1rem;
+}
