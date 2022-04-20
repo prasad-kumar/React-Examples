@@ -1,0 +1,49 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  padding: 1rem 0;
+  color: blueviolet;
+}
+
+h2{
+  color: blueviolet;  
+}
+
+
+div{
+  width: 30rem;
+  line-height: 2rem;
+  text-align: center;
+  margin: auto;
+}
+
+form{
+  text-align: center;
+  line-height: 2rem;
+  
+}
+
+input{
+  width: 100%;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+
+}
+
+button{
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: 1px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+}
+
+.hide{
+  visibility: hidden;
+}
