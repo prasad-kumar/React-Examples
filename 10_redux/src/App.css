@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: blueviolet;
+}
+
+
+
+span{
+  border: 1px solid black;
+  padding: 0 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input{
+  padding: 1rem;
+  width: 100px;
+  margin: 0 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border: 1px solid black;
+  color: blueviolet;
+}
